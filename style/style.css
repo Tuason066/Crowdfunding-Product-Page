@@ -1,3 +1,8 @@
+/* 
+
+CODED BY: JEFFREY TUASON 
+
+*/
 @import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
 *, ::before, ::after {
   box-sizing: border-box;
@@ -502,6 +507,7 @@ h3 {
   top: 0;
   left: 0;
   width: 100%;
+  min-height: 100vh;
   max-height: 100vh;
   overflow-y: scroll;
   visibility: hidden;
@@ -796,5 +802,10 @@ h3 {
     max-width: 5rem;
   }
 }
+/* 
+
+CODED BY: JEFFREY TUASON 
+
+*/
 
 /*# sourceMappingURL=style.css.map */

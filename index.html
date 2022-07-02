@@ -2,20 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Crowdfunding product page</title>
 
   <!-- styles -->
   <link rel="stylesheet" href="./style/style.css">
+  <!-- CODED BY: JEFFREY TUASON -->
 
 </head>
 <body>
-
-  <!-- <div class="overlay"></div> -->
-
+<!-- ============================ HEADER ========================= -->
   <header class="header">
     <picture>
       <source media="(min-width:768px)" srcset="./images/image-hero-desktop.jpg">
@@ -43,7 +40,8 @@
     </div>
   </header>
 
-  <!-- main -->
+<!-- ============================ MAIN ========================= -->
+
   <main class="main">
     <img class="main__logo" src="./images/logo-mastercraft.svg" alt="brand logo" />
     <!-- main header -->
@@ -62,7 +60,6 @@
 
     <!-- dashboard -->
     <section class="dashboard">
-
       <!-- single item -->
       <div>
         <p class="dashboard__number" id="total-amount">$89,914</p>
@@ -85,7 +82,6 @@
         <p class="dashboard__text">days left</p>
       </div>
       <!-- end single item -->
-
       <div class="status-bar">
         <div class="status-bar__highlight"></div>
       </div>
@@ -95,7 +91,6 @@
     <section class="project">
       <h2>About this project</h2>
       <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
-
       <p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.</p>
 
       <!-- single item -->
@@ -104,9 +99,7 @@
           <h3 class="card__title">Bamboo Stand</h3>
           <p class="card__sub-title">Pledge $25 or more</p>
         </header>
-
         <p class="card__desc">You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you’ll be added to a special Backer member list.</p>
-
         <div class="card__btn-container">
           <p class="card__left"><span>101 </span> left</p>
           <button type="button" class="select-radio primary-btn btn">Select Reward</button>
@@ -120,9 +113,7 @@
           <h3 class="card__title">Black Edition Stand</h3>
           <p class="card__sub-title">Pledge $75 or more</p>
         </header>
-
         <p class="card__desc">You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer member list. Shipping is included.</p>
-
         <div class="card__btn-container">
           <p class="card__left"><span>64 </span> left</p>
           <button type="button" class="select-radio primary-btn btn">Select Reward</button>
@@ -136,19 +127,14 @@
           <h3 class="card__title">Mahogany Special Edition</h3>
           <p class="card__sub-title">Pledge $200 or more</p>
         </header>
-
         <p class="card__desc">You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added to our Backer member list. Shipping is included.</p>
-
         <div class="card__btn-container">
           <p class="card__left"><span>0 </span> left</p>
           <button type="button" class="select-radio primary-btn btn">Out of Stock</button>
         </div>
       </article>
       <!-- end of single item -->
-
-
     </section>
-
   </main>
 <!-- ============================ MODAL ========================= -->
   <aside class="modal">
@@ -163,7 +149,7 @@
       <!-- description -->
       <p class="modal__desc">Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
 
-      <!-- === cards === -->
+      <!-- ============================ cards ============================ -->
       <!-- single item -->
       <article class="modal-card">
 
@@ -194,7 +180,6 @@
 
       <!-- single item -->
       <article id="bamboo" class="modal-card">
-
         <div class="modal-card__details">
           <header class="modal-card__header">
             <input type="radio" id="modal-card__bamboo" class="modal-card__input-radio" name="pledge">
@@ -218,12 +203,11 @@
             </form>
           </div>
         </div>
-
       </article>
       <!-- end of single item -->
+
       <!-- single item -->
       <article id="black-edition" class="modal-card">
-
         <div class="modal-card__details">
           <header class="modal-card__header">
             <input type="radio" id="modal-card__black-edition" class="modal-card__input-radio" name="pledge">
@@ -247,13 +231,11 @@
             </form>
           </div>
         </div>
-
       </article>
       <!-- end of single item -->
 
       <!-- single item -->
       <article id="mahogany" class="modal-card  out-of-stock">
-
         <div class="modal-card__details">
           <header class="modal-card__header">
             <input type="radio" id="modal-card__mahogany" class="modal-card__input-radio" name="pledge">
@@ -277,10 +259,8 @@
             </form>
           </div>
         </div>
-
       </article>
       <!-- end of single item -->
-
     </section>
   </aside>
 

@@ -1,3 +1,8 @@
+/* 
+
+CODED BY: JEFFREY TUASON
+
+ */
 // =============== NAVBAR ==================
 const overlay = document.querySelector('.overlay');
 const menuButton = document.querySelector('.menu-btn');
